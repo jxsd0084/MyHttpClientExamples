@@ -1,4 +1,4 @@
-package com.baeldung.java9.httpClient;
+package com.baeldung.java9;
 
 import jdk.incubator.http.HttpClient;
 import jdk.incubator.http.HttpRequest;

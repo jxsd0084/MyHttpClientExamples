@@ -1,9 +1,7 @@
 package com.baeldung.java9.httpRequest;
 
-import jdk.incubator.http.HttpRequest;
 import org.junit.Test;
 
-import java.net.URI;
 import java.net.URISyntaxException;
 
 /**
@@ -17,10 +15,10 @@ public class Ch06_Setting_a_Request_Body {
 
 	@Test
 	public void test() throws URISyntaxException {
-		HttpRequest request = HttpRequest.newBuilder()
-			.uri(new URI("https://postman-echo.com/post"))
-			.POST(HttpRequest.BodyPublisher.noBody())
-			.build();
+		// HttpRequest request = HttpRequest.newBuilder()
+		// 	.uri(new URI("https://postman-echo.com/post"))
+		// 	.POST(HttpRequest.BodyPublisher.noBody())
+		// 	.build();
 	}
 
 

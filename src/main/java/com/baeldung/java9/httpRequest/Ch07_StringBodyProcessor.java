@@ -1,9 +1,6 @@
 package com.baeldung.java9.httpRequest;
 
-import jdk.incubator.http.HttpRequest;
 import org.junit.Test;
-
-import java.net.URI;
 
 /**
  * @author jakeChen
@@ -16,11 +13,11 @@ public class Ch07_StringBodyProcessor {
 
 	@Test
 	public void test() throws Exception {
-		HttpRequest request = HttpRequest.newBuilder()
-			.uri(new URI("https://postman-echo.com/post"))
-			.headers("Content-Type", "text/plain;charset=UTF-8")
-			.POST(HttpRequest.BodyPublisher.fromString("Sample request body"))
-			.build();
+		// HttpRequest request = HttpRequest.newBuilder()
+		// 	.uri(new URI("https://postman-echo.com/post"))
+		// 	.headers("Content-Type", "text/plain;charset=UTF-8")
+		// 	.POST(HttpRequest.BodyPublisher.fromString("Sample request body"))
+		// 	.build();
 	}
 
 

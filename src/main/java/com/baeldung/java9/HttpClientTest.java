@@ -1,4 +1,4 @@
-package com.baeldung.java9.httpclient;
+package com.baeldung.java9;
 
 /**
  * @author jakeChen
